@@ -1,0 +1,31 @@
+### registro de Usuario
+POST http://127.0.0.1:8000/api/v1/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+	"name":"Porfirio",
+	"email":"porfy10@test.com",
+	"password":"Pepito12$",
+	"cpassword":"Pepito12$"
+}
+
+### Login
+POST http://127.0.0.1:8000/api/v1/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+	"email":"porfy9@test.com",
+	"password":"Pepito12$"
+}
+### Perfil
+GET http://127.0.0.1:8000/api/v1/auth/perfil
+Accept: application/json
+Authorization: Bearer 3|pGMYHPaGxd5TgaERzvXHzyzDgTbqsuMXh3DT1bBA
+
+
+
+
+
+
